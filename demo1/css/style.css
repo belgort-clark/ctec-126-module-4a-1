@@ -1,0 +1,14 @@
+/* demo1.js */
+
+button {
+    background: green;
+    color: #ffffff;
+    padding: 10px 15px 10px 15px;
+    margin-bottom: 1em;
+    width: 25vw;
+    font-weight: bold;
+}
+
+button#deletebottom, button#deletetop {
+    background: red;
+}
