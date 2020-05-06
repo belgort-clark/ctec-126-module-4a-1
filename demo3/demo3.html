@@ -15,20 +15,49 @@
                 return a + b
             }
 
+            const sum2 = (a, b) => {
+                return a + b
+            }
+
+            const sum3 = (a, b) => a + b
+
+            let result = sum3(4, 3)
+
+
             // named function with one parameter 
             function isPositive(number) {
                 return number >= 0
             }
+
+            const isPositive2 = (number) => {
+                return number >= 0
+            }
+
+            const isPositive3 = number => number >= 0
 
             // named function with no parameters
             function randomNumber() {
                 return Math.random
             }
 
+            const randomNumber2 = () => {
+                return Math.random
+            }
+
+            const randomNumber3 = () => Math.random
+
             // anonymous function with no name
             document.addEventListener('click', function () {
                 console.log('Clicked!')
             })
+
+            document.addEventListener('dblclick', () => {
+                console.log('You double clicked me!')
+            })
+
+            document.addEventListener('dblclick', () =>
+                console.log('You double clicked me!')
+            )
 
         </script>
     </body>

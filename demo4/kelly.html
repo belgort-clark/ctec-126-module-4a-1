@@ -4,12 +4,16 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Variable Scope</title>
+        <title>Document</title>
     </head>
 
     <body>
+        <div id="kell">I like turtles</div>
         <script>
-            // code will go here
+            const text = document.getElementById('kell')
+            const text2 = document.querySelector('#kell')
+            alert(text.innerText)
+
         </script>
     </body>
 
